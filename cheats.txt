@@ -1,0 +1,817 @@
+#----------------------------------------------------------------------------
+# Caetla ver 0.37 Ultimate Cheat Collection 2025
+# These codes sometimes require GameShark v2.2+ "multi-write" format (5000xxxx)
+# and require a cheat device or firmware that supports them, such as CAETLA.
+#----------------------------------------------------------------------------
+"-- Ultimate Cheat Collection --"
+.end
+#----------------------------------------------------------------------------
+"007 Racing - USA"
+#----------------------------------------------------------------------------
+"------- Health Upgrades --------" .off
+"Infinite Health" .off
+8005DF0A 0000
+"Infinite Shields on Pick-Up" .off
+D00C1C12 AC82
+800C1C12 2400
+"------- Weapon Upgrades --------" .off
+"Press R1 for all Weapons" .off
+d003c1faf7ff
+8005e9cc03e8
+d003c1faf7ff
+8005e9d0000a
+d003c1faf7ff
+8005e9d40005
+d003c1faf7ff
+8005e9d80078
+d003c1faf7ff
+8005e9dc000a
+d003c1faf7ff
+8005e9e01000
+d003c1faf7ff
+8005e9f00064
+d003c1faf7ff
+8005e9f40001
+d003c1faf7ff
+8005e9f8000a
+d003c1faf7ff
+8005e9fc0064
+d003c1faf7ff
+8005ea000001
+d003c1faf7ff
+8005ea080001
+d003c1faf7ff
+8005ea0c00b4
+"-------- Ammo Upgrades ---------" .off
+"Infinite Ammo on Pick-Up" .off
+D00C1C7A ACC2
+800C1C7A 2400
+"-------- Other Upgrades --------" .off
+"Quick Max Score" .off
+D005E240 0000
+8005E240 FFFF
+"Max Score" .off
+8005e240 e0ff
+8005e242 05f5
+"Stop Timer" .off
+D00CFDEA AC85
+800CFDEA 2400
+"--------- Unlockables ----------" .off
+"Unlock All Missions & Movies" .off
+8003DA7E 0101
+8003DA80 0101
+8003DA82 0101
+8003DA84 0101
+8003DA86 0101
+8003DA88 0101
+"All Levels Unlocked" .off
+50000602 0000
+8003da7e 0101
+.end
+#----------------------------------------------------------------------------
+"007 The World is Not Enough -USA"
+#----------------------------------------------------------------------------
+"------- Health Upgrades --------" .off
+"Invincible" .off
+80073A04 0001
+30073D3A 0001
+"-------- Ammo Upgrades ---------" .off
+"Infinite Ammo" .off
+30073D3D 0001
+"------- Weapon Upgrades --------" .off
+"All Weapons" .off
+30073D38 0001
+"--------- Unlockables ----------" .off
+"Unlock All Missions & Movies" .off
+8001F2D2 0101
+8001F2D4 0101
+8001F2D6 0101
+8001F2D8 0101
+8001F2DA 0101
+8001F2DC 0101
+8001F2DE 0101
+8001F2E0 0101
+8001F2E2 0101
+8001F2E4 0101
+8001F2E6 0101
+8001F2E8 0101
+8001F2EA 0101
+8001F28E 0002
+"All Movies Unlocked (Alt.)" .off
+50000c02 0000
+8001f2d4 0101
+8001f28e 0002
+"All Cheats Unlocked" .off
+8001F16A FFFF
+"$999999 in Russian Roulette" .off
+8009db6c e0ff
+8009db6e 05f5
+.end
+#----------------------------------------------------------------------------
+"007 Tomorrow Never Dies - USA"
+#----------------------------------------------------------------------------
+"------- Health Upgrades --------" .off
+"Infinite Lives" .off
+8001E096 0063
+"Infinite Lives (Alt.)" .off
+8001E096 0007
+"Invincible - You Must Die Once" .off
+D0025882 A020
+80025882 2400
+"-------- Ammo Upgrades ---------" .off
+"Infinite Pk7 Ammo" .off
+800EA846 000F
+"Infinite Assault Rifle Ammo" .off
+800EA8B2 000F
+"Infinite Ammo Sniper Rifle" .off
+800EA916 000F
+"------ Equipment Upgrades ------" .off
+"Infinite Medikits" .off
+800EA9DC 0007
+"------- Energy Upgrades --------" .off
+"Infinite Energy Level 1" .off
+80118079 0258
+801F7A2D 0258
+"Infinite Energy Level 2" .off
+801008AD 0258
+"Infinite Energy Level 3" .off
+801F2835 0258
+"Infinite Energy Level 4" .off
+801F30DD 0258
+"Infinite Energy Level 5" .off
+801F484D 0258
+"Infinite Energy Level 6" .off
+801F4AA5 0258
+"Infinite Energy Level 7" .off
+801F6575 0258
+"Infinite Energy Level 8" .off
+801F3705 0249
+"Infinite Energy Level 9" .off
+801F3555 0258
+"Infinite Energy Level 10" .off
+801F30DD 0266
+"--------- Unlockables ----------" .off
+"Unlock All Missions" .off
+50000A01 0000
+3001E240 0001
+"Unlock All Missions (Alt.)" .off
+8001E240 0101
+8001E242 0101
+8001E244 0101
+8001E246 0101
+8001E248 0101
+"Unlock All Movies" .off
+3001E07F 0001
+8001E080 0101
+8001E082 0101
+8001E084 0101
+8001E086 0101
+3001E088 0001
+"Unlock All Movies (Alt.)" .off
+50000A01 0000
+3001E07F 0001
+.end
+#----------------------------------------------------------------------------
+"2Xtreme - USA"
+#----------------------------------------------------------------------------
+"Always Place First P1" .off
+8007D4CC 0000
+"Race Time is Always 0.000" .off
+80043E3C 0000
+"Max Out All Character Attributes" .off
+8002B4EE 2400
+"--- Character Creation Codes ---" .off
+"On character select screen," .off
+"activate & press Left each" .off
+"--------------------------------" .off
+"Max Muscle" .off
+80130004 00FF
+"Max Endurance" .off
+8012FE2C 00FF
+"Max Speed" .off
+8012FC54 00FF
+"Max Reflexes" .off
+8012FA7C 00FF
+"Max Tricks" .off
+8012F8A4 00FF
+"Max Skateboarding" .off
+8012F6CC 00FF
+"Max Inlineskating" .off
+8012F4F4 00FF
+"Max Snowboarding" .off
+8012F31C 00FF
+"Max Mountainbiking" .off
+8012F144 00FF
+"Max Handling (Skate Board)" .off
+8012EF6C 00FF
+"Max Acceleration (Skate Board)" .off
+8012ED94 00FF
+"Max Top Speed (Skate Board)" .off
+8012EBBC 00FF
+"Max Handling (Inline Skates)" .off
+8012E9E4 00FF
+"Max Acceleration (Inline Skates)" .off
+8012E80C 00FF
+"Max Top Speed (Inline Skates)" .off
+8012E634 00FF
+"Max Handling (Snow Board)" .off
+8012E45C 00FF
+"Max Acceleration (Snow Board)" .off
+8012E284 00FF
+"Max Top Speed (Snow Board)" .off
+8012E0AC 00FF
+"Max Handling (Mountain Bike)" .off
+8012DED4 00FF
+"Max Acceleration (Mountain Bike)" .off
+8012DCFC 00FF
+"Max Top Speed (Mountain Bike)" .off
+8012DB24 00FF
+.end
+#----------------------------------------------------------------------------
+"3, 2, 1, Smurf! Racing - EUR"
+#----------------------------------------------------------------------------
+"---------- Visual Mods ---------" .off
+"Widescreen 16:9" .off
+8009D038 0C00
+"Eyefinity" .off
+8009D038 0400
+"------------ Other  ------------" .off
+"Always First" .off
+8008ED38 0003
+"Start At 3rd Lap" .off
+80094B34 0003
+"Time 00:00:00" .off
+8008DFB0 0000
+.end
+#----------------------------------------------------------------------------
+"3D Lemmings - USA"
+#----------------------------------------------------------------------------
+"------- Infinite Skills  -------" .off
+"Infinite Blockers"
+30113794 0005
+"Infinite Turners"
+30113795 0005
+"Infinite Bombers"
+30113796 0005
+"Infinite Builders"
+30113797 0005
+"Infinite Bashers"
+30113798 0005
+"Infinite Miners"
+30113799 0005
+"Infinite Diggers"
+3011379A 0005
+"Infinite Climbers"
+3011379B 0005
+"Infinite Floaters"
+3011379C 0005
+"------ Fixed Release Rate ------" .off
+"Release Rate Locked at 50"
+80089F14 0032
+"Release Rate Locked at 99"
+80089F14 0063
+"Release Rate Is Always 10" .off
+80089F14 000A
+"Release Rate Locked at 1"
+80089F14 0001
+"----- Minimum Release Rate -----" .off
+"Minimum Release Rate Is 99" .off
+80107336 0063
+"Minimum Release Rate Is 50" .off
+80107336 0032
+"Minimum Release Rate Is 10" .off
+80107336 000A
+"Minimum Release Rate Is 1" .off
+80107336 0001
+"------------ Other  ------------" .off
+"All Lemmings Accounted For" .off
+8010733A 0000
+.end
+#----------------------------------------------------------------------------
+"3Xtreme - USA"
+#----------------------------------------------------------------------------
+"------ Points & Currency  ------" .off
+"Infinite Purchase Points" .off
+8001010A 00FF
+"Max Race Points (Circuit Mode)" .off
+300104E0 0063
+30010224 0063
+"Max Tournament Points" .off
+30010224 00FF
+"Max Equipment Buy Points" .off
+8001010A FFFF
+"Have All Characters" .off
+80010072 0101
+80010074 0101
+80010076 0101
+80010078 0101
+8001007A 0101
+8001007C 0101
+8001007E 0101
+80010080 0101
+80010082 0101
+80010084 0101
+"Have All Equipments" .off
+800100A6 0101
+800100A8 0101
+800100AA 0101
+800100AC 0101
+800100AE 0101
+800100B0 0101
+800100B2 0101
+800100B4 0101
+800100B6 0101
+800100B8 0101
+800100BA 0101
+800100BC 0101
+800100BE 0101
+800100C0 0101
+800100C2 0101
+800100C4 0101
+800100C6 0101
+800100C8 0101
+800100CA 0101
+800100CC 0101
+800100CE 0101
+800100D0 0101
+800100D2 0101
+800100D4 0101
+800100D6 0101
+800100D8 0101
+800100DA 0101
+800100DC 0101
+800100DE 0101
+800100E0 0101
+800100E2 0101
+800100E4 0101
+800100E6 0101
+800100E8 0101
+800100EA 0101
+800100EC 0101
+800100EE 0101
+800100F0 0101
+800100F2 0101
+800100F4 0101
+800100F6 0101
+800100F8 0101
+800100FA 0101
+800100FC 0101
+"----- Freestyle Mode -----" .off
+"Infinite Freestyle Time P1" .off
+80143BD0 2400
+"Infinite Freestyle Time P2" .off
+8014E0B8 2400
+"---- Level Unlocks -----" .off
+"Unlock The Metro" .off
+30010182 0001
+"Unlock Aztec Island 1" .off
+3001017C 0001
+"Unlock Seacliff 2" .off
+3001017B 0001
+"Unlock Arroyo Grande 2" .off
+3001017A 0001
+"Unlock Lakeside Park 2" .off
+3001017D 0001
+"Unlock Lakeside Park 3" .off
+30010183 0001
+"Unlock Seacliff 3" .off
+30010184 0001
+"Unlock Arroyo Grande 3" .off
+30010185 0001
+"Unlock Aztec Island 3" .off
+30010186 0001
+"---- Character Unlocks ----" .off
+"Unlock Joe Carberry" .off
+30010072 0001
+"Unlock Zach Cruz" .off
+30010073 0001
+"Unlock Karac Jones" .off
+3001007A 0001
+"Unlock Yukio Osaka" .off
+3001007B 0001
+"Unlock Cale Nappi" .off
+30010081 0001
+"Unlock Spunkmeyer" .off
+30010082 0001
+"Unlock Bink" .off
+30010075 0001
+"Unlock Nyub" .off
+30010084 0001
+"Unlock Geep" .off
+3001007D 0001
+"Unlock Lug Nut" .off
+30010074 0001
+"Unlock Dominique" .off
+30010083 0001
+"Unlock TP" .off
+3001007C 0001
+"----- Vehicle Unlocks -----" .off
+"Unlock Red Car" .off
+30010076 0001
+"Unlock Blue Car" .off
+30010085 0001
+"Unlock White Car" .off
+3001007E 0001
+"------------ Other  ------------" .off
+"Fake Always First" .off
+8014E0B8 0001
+.end
+#----------------------------------------------------------------------------
+"4x4 World Trophy - EUR"
+#----------------------------------------------------------------------------
+"---------- Visual Mods ---------" .off
+"Widescreen 16:9"
+8007E7B0 0C00
+"Eyefinity" .off
+8007E7B0 0400
+"------------ Other  ------------" .off
+"All Cheats" .off
+8009DDEC FFFF
+"Infinite Checkpoint Time" .off
+800330EC 0000
+800330EE 0000
+"Always First" .off
+80023086 0040
+.end
+#----------------------------------------------------------------------------
+"40 Winks - USA"
+#----------------------------------------------------------------------------
+"---------- Visual Mods ---------" .off
+"Disable Dithering" .off
+80041490 0000
+8005BB70 0000
+"Big Head Mode" .off
+8008e2dc0100
+"------- Health Upgrades --------" .off
+"Infinite Lives" .off
+80013352 2400
+"Infinite Air" .off
+8002B8CE 2400
+"Infinite Zzz's" .off
+8001326E 2400
+"------ Equipment Upgrades ------" .off
+"Infinite Moons" .off
+8003280E 2400
+"Max Tokens" .off
+800B06B4 0064
+"Max Cogs" .off
+800B06AA 0064
+"Infinite Furby’s" .off
+800b06b6 0063
+"Infinite RT’s" .off
+800b06b4 03e7
+"-------- Other Upgrades --------" .off
+"Infinite Costume Time" .off
+8002C452 2400
+"--------- Unlockables ----------" .off
+"Have All Dream Keys" .off
+50000c02 0000
+8009059c ffff
+"All Levels Unlocked" .off
+50000202 0000
+80090596 ffff
+"Have All Winks" .off
+50000302 0000
+8009058c ffff
+"Have All Dreamkeys" .off
+8009059C FFFF
+.end
+#----------------------------------------------------------------------------
+"70's Robot Anime: Geppy-X - JAP"
+#----------------------------------------------------------------------------
+"------- Health Upgrades --------" .off
+"Invincible" .off
+30197803 0010
+"Infinite Health" .off
+30078704 0063
+"Max Armor" .off
+80197874 012C
+"------- Weapon Upgrades --------" .off
+"Max Main Weapons" .off
+30197866 0003
+"Max Sub Weapons" .off
+30197868 0003
+"-------- Other Upgrades --------" .off
+"Max X-Power" .off
+3019786A 005A
+.end
+#----------------------------------------------------------------------------
+"Ace Combat 2 - USA"
+#----------------------------------------------------------------------------
+"------- Health Upgrades --------" .off
+"Infinite Health" .off
+8002C334 000F
+8002C336 3241
+8002C33A 2400
+8002C33C 001A
+8002C33E 1020
+"No Ground Death" .off
+8002F748 0000
+8002F74A 0000
+"Extra Planes" .off
+50000802 0000
+80010C44 0101
+"Extra Planes (Alt.)" .off
+80010C44 0101
+80010C46 0101
+80010C48 0101
+80010C4A 0101
+80010C4C 0101
+80010C4E 0101
+80010C50 0101
+80010C52 0101
+"------- Weapon Upgrades --------" .off
+"Infinite Missiles" .off
+8002CAA8 0000
+8002CAAA 0000
+"Rapid Fire Missiles" .off
+8002C464 0000
+8002C466 0000
+80032BAC 0000
+80032BAE 0000
+"------ Equipment Upgrades ------" .off
+"Infinite Money" .off
+80010C1C 9676
+80010C1E 0098
+"Infinite Fuel" .off
+8003936C 2400
+8003936E 82AC
+"------ Unlockable Planes ------" .off
+"A-4 Plane" .off
+30010C44 0001
+"F-4 Plane" .off
+30010C45 0001
+"CF-C7 Plane" .off
+30010C46 0001
+"A-6 Plane" .off
+30010C47 0001
+"F-16 Plane" .off
+30010C48 0001
+"X-29 Plane" .off
+30010C49 0001
+"A-10 Plane" .off
+30010C4A 0001
+"MiG-29 Plane" .off	
+30010C4B 0001
+"F-14 Plane" .off
+30010C4C 0001
+"F-117A Plane" .off
+30010C4D 0001
+"R-MO1 Plane" .off
+30010C4E 0001
+"EF-2000 Plane" .off
+30010C4F 0001
+"F/A-18E Plane" .off
+30010C50 0001
+"Su-35 Plane" .off
+30010C51 0001
+"YF-23A Plane" .off
+30010C52 0001
+"F-22 Plane" .off
+30010C53 0001
+.end
+#----------------------------------------------------------------------------
+"Ace Combat 3 - USA"
+#----------------------------------------------------------------------------
+"------- Health Upgrades --------" .off
+"Invincible" .off
+800710BA 2400
+80071016 2400
+"-------- Ammo Upgrades ---------" .off
+"Infinite Missiles" .off
+800705CA 2400
+"Rapid Fire Missiles" .off
+800704D4 0001
+"Add Missiles Instead of Subtracting Them"
+800705C4 0001
+"--------- Unlockables ----------" .off
+"All Planes"
+50000A02 0000
+800BE66A 0101
+"Infinite Time"
+80052F06 2400
+.end
+#----------------------------------------------------------------------------
+"Action Man: Mission Xtreme - EUR"
+#----------------------------------------------------------------------------
+"---------- Visual Mods ---------" .off
+"Widescreen 16:9"
+800C08EC 0C00 
+"Infinite Health Ice Flow" .off
+8013386A 03E0
+
+"Infinite Longbow Ammo" .off
+800B5FA6 000F
+
+"Infinite Health City Skies" .off
+801C01F2 03E0
+
+"Infinite Health Spider Tank" .off
+801CA8F8 03E0
+
+"Infinite Jet Boss" .off
+801C9788 03E0
+
+"Infinite Sniper Ammo" .off
+800B5FA8 0008
+
+"Infinite Health City Streets" .off
+801164B0 03E8
+
+"Infinite Health Silo" .off
+801C98DC 03E0
+
+"Infinite Sniper Ammo" .off
+800B5FA8 0008
+
+"Infinite Health Island Base" .off
+801C8E40 03E0
+
+"999 Power Points" .off
+D00B9F44 FCFF
+800B5E12 03E7
+
+"Infinite Health Toxic Lab" .off
+801C1240 03E0
+
+"Infinite Health Queen Plant" .off
+801C9394 03E0
+
+"Infinite Health Desert Base" .off
+801C12FC 03E0
+
+"Infinite Sonic Gun Ammo" .off
+800B5FAE 00C8
+
+"Infinite Health Hold" .off
+801C8E40 03E0
+
+"Infinite Sonic Gun Ammo" .off
+800B5FAE 00C8
+
+"Inf. Health Skullbot Factory" .off
+801C8A20 03E0
+
+"Eyefinity" .off
+800C08EC 0400
+
+.end
+#----------------------------------------------------------------------------
+"Alien Trilogy - USA"
+#----------------------------------------------------------------------------
+"------- Health Upgrades --------" .off
+"Infinite Health"
+8009A040 03E7
+"Infinite Armor"
+8009A042 03E7
+"------- Weapon Upgrades --------" .off
+"Unlock Shotgun"
+8008F33E 0029
+"Unlock Flame Thrower"
+8008F34A 0029
+"Unlock Pulse Rifle"
+8008F342 0029
+"Unlock Smart Gun"
+8008F346 0029
+"-------- Ammo Upgrades ---------" .off
+"Infinite Handgun Bullets"
+8009A046 03E7
+"Infinite Shotgun Bullets"
+8009A04A 03E7
+"Infinite Smart Gun Rounds"
+8009A054 03E7
+"Infinite Pulse Rifle Grenades"
+8009A050 03E7
+"Infinite Pulse Rifle Rounds"
+8009A04C 03E7
+"Infinite Flame Thrower Rounds"
+8009A052 03E7
+"Infinite Charge Grenades"
+8009A058 03E7
+"------ Equipment Upgrades ------" .off
+"Infinite Batteries"
+8009A05A 03E7
+"Infinite Boots"
+8009A044 03E7
+"Infinite Shoulder Lights"
+8009A05C 0014
+"Infinite Night Vision"
+8009A060 0014
+"Have Auto Mapper"
+8009A03C 03E7
+"Rapid Firer"
+8009A024 0001
+.end
+#----------------------------------------------------------------------------
+"CTR - Crash Team Racing - USA"
+#----------------------------------------------------------------------------
+"--------- Unlockables ----------" .off
+"Unlock Everything"
+8008E6EC FFFF
+8008E6EE FFFF
+8008E6F0 FFFF
+"Have All Awards" .off
+8008fba4ffff
+8008fba6ffff
+8008fba8ffff
+8008fbaaffff
+8008fbacffff
+8008fbaeffff
+8008fbb0ffff
+8008fbb2ffff
+"------- Progress Upgrades ------" .off
+"Complete Adventure Mode Quickly"
+8008FBA2 FFFF
+8008FBA4 FFFF
+8008FBA6 FFFF
+8008FBA8 FFFF
+8008FBAA FFFF
+8008FBAC FFFF
+8008FBAE FFFF
+8008FBB0 FFFF
+8008FBB2 FFFF
+8008FBB4 FFFF
+.end
+#----------------------------------------------------------------------------
+"Jet Moto - USA"
+#----------------------------------------------------------------------------
+"--------- Unlockables ----------" .off
+"Unlock All Tracks"
+80176664 0003
+"------ Equipment Upgrades ------" .off
+"Infinite Turbos"	
+80176700 0004
+80188B48 0004
+.end
+#----------------------------------------------------------------------------
+"Pepsiman - JAP"
+#----------------------------------------------------------------------------
+"---------- Visual Mods ---------" .off
+"Widescreen 16:9"
+800E4858 0C00
+"------- Health Upgrades --------" .off
+"Invincibility"
+D002447E 2442
+8009EF40 00FF
+"------- Unlockable Modes -------" .off
+"Free Play"
+800958A4 0100
+"Expert Mode"
+800957D4 0100
+# [TIMERS]
+"Total Time"
+8009585C 0001
+80095980 0000
+"Extra Time"
+80095988 7530
+# [POWER-UPS]
+"All Pepsiman"
+800958C8 000F
+"99 People"
+80095770 0063
+"100 Pepsi Cans"
+300958E8 0064
+"Extra Energy"
+300958A8 0003
+"Dash Stage R1"
+D0095848 0008
+8009EB7C 3900
+"Float in Air (Press Triangle)"
+D0095848 0010
+8009EF06 0100
+D0095848 0010
+8009EF08 0001
+"No Down on Reverse Running Stage"
+D00F0272 2442
+800F80B0 00FE
+D00F0272 2442
+800F4AD8 00FE
+D00F0236 2442
+800F8004 00FE
+D00F029A 2442
+800F57DC 00FE
+.end
+#----------------------------------------------------------------------------
+"WipEout - USA"
+#----------------------------------------------------------------------------
+"---------- Visual Mods ---------" .off
+"Disable Dithering"
+D0068C8C 0200
+30068C8D 0000
+.end
+#----------------------------------------------------------------------------
+"WipEout 2097 - EUR"
+#----------------------------------------------------------------------------
+"---------- Visual Mods ---------" .off
+"Disable Dithering"
+D007D96C 0200
+3007D96D 0000
+.end
+#----------------------------------------------------------------------------
+"Wipeout XL - USA"
+#----------------------------------------------------------------------------
+"---------- Visual Mods ---------" .off
+"Disable Dithering"
+D007CE50 0200
+3007CE51 0000
+.end

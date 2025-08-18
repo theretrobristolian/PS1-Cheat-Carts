@@ -1,79 +1,182 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh15360\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+Release Notes
+Version key release notes, changes and improvements
 
-\f0\fs24 \cf0 caetla-release-notes.txt\
-=========================\
-\
-04/09/1997 17:53   CAETLA_13.ROM\
-    \'95 Early version; likely added basic out-of-region and pirated disc support.\
-\
-18/10/1997 07:24   CAETLA_16.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-31/10/1997 08:03   CAETLA_17.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-12/11/1997 13:19   CAETLA_18.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-17/11/1997 16:40   CAETLA_19.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-01/12/1997 17:38   CAETLA_20.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-07/12/1997 22:34   CAETLA_21.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-19/12/1997 17:47   CAETLA_23.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-10/01/1998 16:42   CAETLA_25.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-24/01/1998 12:22   CAETLA_26.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-03/02/1998 17:27   CAETLA_27.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-25/02/1998 17:50   CAETLA_28.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-21/03/1997 21:45   CAETLA_29.ROM\
-    \'95 Timestamp seems out of sequence; perhaps mislabeled or modified later.\
-    \'95 (no changelog found \'97 insert manually)\
-\
-09/08/2025 18:21   CAETLA_30.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-09/08/2025 18:27   CAETLA_31.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-09/08/2025 18:21   CAETLA_32.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-09/08/2025 18:21   CAETLA_33.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-27/04/1999 18:57   CAETLA_34.ROM\
-    \'95 Added advanced code types: indirect writes, 32-bit increment/decrement, GameShark-style flags (C3\'85, 9100 sequence, C1/C2, 12xxxxxx, 22xxxxxx) :contentReference[oaicite:1]\{index=1\}\
-    \'95 Bug in Caetla 0.34: AR2/GS \'9321\'94 code doesn\'92t work properly; fixed in version 0.35 :contentReference[oaicite:2]\{index=2\}\
-\
-09/08/2025 18:21   CAETLA_35.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-09/08/2025 18:21   CAETLA_37.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-09/08/2025 18:21   CAETLA_38.ROM\
-    \'95 (no changelog found \'97 insert manually)\
-\
-\
+0000/0/00 - version 0.38
+broken and seemingly unusable
+
+0000/0/00 - version 0.37
+Loading cheat files from memory card supported (seems to be the best version i've tried)
+
+0000/0/00 - version 0.35
+
+1999/4/28 - version 0.34
+Supports X-Terminator. Added "Hardware" item to "Config"
+"Modified Code" Compatible with PAR2 code (switch and use with FFFFFFFF-0001 code)
+Added 7x code (synchronization code), 6x code (bit comparison code), and 5x code (bit operation code) to "modified code"
+. Special thanks to kasa0 (6x, 5x code creator), Lips (7x code creator), EVE, and MOMOchan.
+"Modified code" After loading the program, the code will be applied once before starting.
+"Memory Card" Improved memory card access (type H compatible?)
+"CD-ROM" FF8 movie support (problems with some models, such as SCPH-1000)
+"CD-ROM" XA audio bug fix for 32ch type
+First version to support Xplorer
+Only version to support Xplorer FX
+
+1998/11/20  - version 0.33
+"Memory Card" Added the function to launch programs stored in a memory card.
+"Memory Card" - Some bug fixes and support for 8 cards this time?
+
+1998/8/11  - version 0.32
+Added 4-bit and 8-bit modes to "Frame buffer display"
+"Memory Card" Improved memory card access timing (compatible with 8 cards)
+Added command line passing function
+When fast forwarding or rewinding on "CD-ROM," the amount of change will increase if you press the key for a certain period of time.
+HBP, BREAK handling bug fix
+Some changes to the strings in the English mode configuration
+
+1998/5/31  - version 0.31
+Added English mode. You can switch language modes with SELECT+L2. Nick Des Barres , /P and his friends provided great help
+with the English text . Thank you very much.
+Added a screen save function when waiting for communication. In the communication standby mode, which can be used by setting "PAR Switch OFF Start" in "Configuration" to "Communication Standby," the screen will turn off if there is no communication or the pad is not touched for a certain period of time (about 60 seconds). It will return to normal when communication is received.
+Reversal of switch function when starting from communication standby state. When starting a program from communication standby state, the interpretation of the switch is reversed. This is because the switch is OFF when communication is standby, so if it was left as it was, the PAR hook would not work, which was rather inconvenient.
+Reduction of cheat code area. Due to the increasing size of the program, the cheat code registration area has been reduced from 32KB to 16KB, and the selection code registration area (used while the game is running) has been reduced from 8KB to 4KB.
+Fixed a bug where SLOT1 and SLOT2 were not displayed correctly in the "Memory Card Manager".
+Fixed a bug that caused the "Memory Card Manager" to go out of control when an access error occurred.
+Fixed the issue where the screen display was shifted downwards.
+
+1998/4/10 - version 0.30
+Added protocols (get version, get all register contents, flush instruction cache, select breakpoint detection method, etc.)
+Made PAR hooks slightly faster.
+Enables handling of break instructions.
+
+1998/3/12 - version 0.29
+Fixed a problem that occurred when starting up with PS-PAR switched off.
+"CD-ROM" Addressed the issue where some movies would stop playing.
+Fixed a bug where entering the "mod code" allowed scrolling down after moving to the last page using half-width characters.
+Added new characters that can be entered when entering "mod code" characters.
+
+1998/2/26 - version 0.28
+Added the item "Config".
+Equipped with an all-data function that allows you to treat CD-ROM data tracks as a single file.
+"Xenogears" has been added to the "CD-ROM" default XAL data.
+
+1998/2/4 - version 0.27
+Fixed to clear registers before startup
+
+1998/1/24 - version 0.26
+NTSC/PAL switching function added
+The wait time when writing to AMD EEP-ROM has been restored.
+"CD-ROM" compatible with Jigoku Groove V movies
+"CD-ROM" provisionally equipped with EXE file execution function
+
+1998/1/12 - version 0.25
+Improved original PAR hook processing
+Changed the wait time for the EEPROM write routine
+1998/1/x version 0.24 (unreleased)
+Equipped with the device "PCDRV"
+Original PAR hook processing
+
+1997/12/22 - version 0.23
+Ez-O-Ray compatible file server call included
+Fixed a bug that garbage appears at coordinate (0,0) in frame buffer display.
+Fixed a bug that caused the game to crash when displaying fonts that are not installed using modified code.
+
+1997/12/12 - version 0.22
+Fixed a startup issue.
+
+1997/12/7 - version 0.21
+Fixed a bug that prevented users from exiting the memory card manager.
+Fixed a bug that HBP cannot be set.
+
+1997/12/2 - version 0.20
+Main routines made into APIs to reduce size
+NY format and ECOFF format programs can also be executed using psexe.
+
+1997/11/18 - version 0.19
+Console Mode Revision
+"Rage Racer" has been added to the "CD-ROM" default XAL data.
+
+1997/11/13 - version 0.18
+Added console mode that allows standard input and output using psexe.
+Added a protocol that allows downloading framebuffer contents during gameplay.
+Extends some protocols, such as reset.
+"Ace Combat 2" has been added to the "CD-ROM" default XAL data.
+
+1997/11/1 - version 0.17
+[CD-ROM] Equipped with XA file analysis function.
+[CD-ROM] Fixed a bug that caused fonts to be corrupted when the image size of the movie exceeds 640x240.
+Compatible with the EEP-ROM (SST:29LE010) installed in the new PS-PAR.
+Compatible with AMD EEP-ROM (AT29F010).
+The stack is no longer used within the exception handling monitoring function.
+
+1997/10/18 - version 0.16
+[CD-ROM] Fixed a bug that caused garbage to appear when playing 24-bit color movies on some PS (early models?).
+[CD-ROM] Fixed searching for the beginning of movie data when extra data is present before the frame-by-frame movie data.
+When attempting to transfer and execute a program using PSEXE, it can now be executed even if the CD is not inserted. However, after executing the "CD-ROM" item, it is not possible to transfer and execute a program using PSEXE unless the CD is inserted.
+
+1997/10/13 - version 0.15
+[CD-ROM] Now supports playback even if extra data is included before each frame of movie data (up to 128 bytes). This allows for movies from FF7, Starblade Alpha, etc.
+[CD-ROM] Supports directories using more than two sectors (root is only one sector)
+
+1997/10/11 - version 0.14
+New item "CD-ROM" added.
+CD-DA, movie, and XA audio playback functions available.
+Corrected the width of "Frame Buffer Display" from 360 to 368
+Reduced message flicker during fast startup.
+Changed the exception handling monitoring function to save the k1 register.
+
+1997/9/5 - version 0.13
+Fixed a bug that caused the app to hang when editing the "Mod Code" code and returning to game selection when there were less than 10 registered games.
+
+1997/8/28 - version 0.12
+Added "Mod Code" E Code (Skip Number Designation Comparison Code)
+Fixed the game startup screen to 640x480
+When executing a program with psexe.com, exception handling monitoring functionality is added unconditionally.
+
+1997/8/24 - version 0.11
+Review and improvement of communication processing section (check GPU DMA transfer)
+
+1997/8/19 - version 0.10
+Equipped with exception processing monitoring function "Game launch with PAR+"
+B0 call hook part, partial change
+
+1997/8/15 - version 0.09
+Review and improvement of B0 call hook section
+Review and improvement of the PS-PAR protocol
+
+1997/8/? - version 0.08
+Fixed bugs in additional code
+Fixed a bug that caused the caetla main menu to crash when using the PS-PAR protocol.
+
+1997/8/2 - version 0.07
+A multiple interrupt prevention flag is added to the PAR hook section.
+
+1997/7/26 - version 0.06
+"Modification Code" B code added
+Measures were taken to prevent the inability to turn on/off additional modification codes in the 98 communication software.
+
+1997/7/19 - version 0.05
+Fixed a bug in the "cheat code" sorting
+Fixed a bug that would prevent the game from saving if you only deleted the code on the "Mod Code" code editing screen.
+Added the ability to increase or decrease the current value with L2/R2 when entering a "Mod Code" code.
+
+1997/7/14 - version 0.04
+Fixed a bug related to the cheat code key.
+Fixed a bug in the mastercode cheat code.
+
+1997/7/11 - version 0.03
+Added protocol for updating modified code
+Released codeup.com (mod code update program)
+Released psxcode.com (a text <-> modded code conversion tool) (provided by Kopel)
+
+1997/7/8 - [Related tool update]
+Fixed a bug that caused mcdown.com (caetool.lzh) to hang when using the -s switch
+
+1997/7/7 - version 0.02
+Fixed a bug that prevented communication tools from being used in the main menu
+
+1997/7/5 - version 0.01
+First Release
+
 General Notes & Feature Highlights\
 ----------------------------------\
 - Caetla was a GameShark firmware replacement for the original white-cart PlayStation GameShark, enabling out-of-region and pirated disc booting on unmodified hardware :contentReference[oaicite:3]\{index=3\}.\
