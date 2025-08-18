@@ -1,0 +1,90 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh15360\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 caetla-release-notes.txt\
+=========================\
+\
+04/09/1997 17:53   CAETLA_13.ROM\
+    \'95 Early version; likely added basic out-of-region and pirated disc support.\
+\
+18/10/1997 07:24   CAETLA_16.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+31/10/1997 08:03   CAETLA_17.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+12/11/1997 13:19   CAETLA_18.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+17/11/1997 16:40   CAETLA_19.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+01/12/1997 17:38   CAETLA_20.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+07/12/1997 22:34   CAETLA_21.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+19/12/1997 17:47   CAETLA_23.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+10/01/1998 16:42   CAETLA_25.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+24/01/1998 12:22   CAETLA_26.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+03/02/1998 17:27   CAETLA_27.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+25/02/1998 17:50   CAETLA_28.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+21/03/1997 21:45   CAETLA_29.ROM\
+    \'95 Timestamp seems out of sequence; perhaps mislabeled or modified later.\
+    \'95 (no changelog found \'97 insert manually)\
+\
+09/08/2025 18:21   CAETLA_30.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+09/08/2025 18:27   CAETLA_31.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+09/08/2025 18:21   CAETLA_32.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+09/08/2025 18:21   CAETLA_33.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+27/04/1999 18:57   CAETLA_34.ROM\
+    \'95 Added advanced code types: indirect writes, 32-bit increment/decrement, GameShark-style flags (C3\'85, 9100 sequence, C1/C2, 12xxxxxx, 22xxxxxx) :contentReference[oaicite:1]\{index=1\}\
+    \'95 Bug in Caetla 0.34: AR2/GS \'9321\'94 code doesn\'92t work properly; fixed in version 0.35 :contentReference[oaicite:2]\{index=2\}\
+\
+09/08/2025 18:21   CAETLA_35.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+09/08/2025 18:21   CAETLA_37.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+09/08/2025 18:21   CAETLA_38.ROM\
+    \'95 (no changelog found \'97 insert manually)\
+\
+\
+General Notes & Feature Highlights\
+----------------------------------\
+- Caetla was a GameShark firmware replacement for the original white-cart PlayStation GameShark, enabling out-of-region and pirated disc booting on unmodified hardware :contentReference[oaicite:3]\{index=3\}.\
+\
+- A major drawback of later versions was that they stored the cheat database in a memory-card file\'97but the utility to generate that file appears to be lost :contentReference[oaicite:4]\{index=4\}.\
+  > As one user noted, \'93there used to be a utility to create memory card saves with cheats, but I can't seem to find the download anywhere.\'94 :contentReference[oaicite:5]\{index=5\}\
+\
+- Another user on ASSEMblerGames confirmed that \'93the later versions of Caetla store the cheat database on a memory card,\'94 and that updating required an old ISA comms-link card\'97though a parallel-port clone (Freewing) could be used as a workaround :contentReference[oaicite:6]\{index=6\}.\
+\
+- Caetla\'92s advanced cheat code support in version 0.34 (or the possibly hacked .341 variant) added indirect write capability, powerful increment/decrement codes, and GameShark flags, greatly enhancing its cheating flexibility :contentReference[oaicite:7]\{index=7\}.\
+\
+- There is evidence in Unirom documentation that it supports dual-booting with Caetla, though this relates to Unirom\'92s broader features including memory-card booting, file browsing, and debugging tools :contentReference[oaicite:8]\{index=8\}.\
+\
+}
